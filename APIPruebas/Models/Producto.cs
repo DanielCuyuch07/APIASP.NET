@@ -17,5 +17,5 @@ public partial class Producto
 
     public decimal? Precio { get; set; }
 
-    public virtual Categoria? IdCategoriaNavigation { get; set; }
+    public virtual Categoria? oCategoria { get; set; }
 }
